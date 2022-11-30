@@ -4,4 +4,5 @@
 
 """Print the alphabet in lowercase, not followed by a new line."""
 for letter in range(97, 123):
-    print(chr(letter), end="")
+    if chr(letter) != 'q' and chr(letter):
+        print("{}".format(chr(letter)), end="")
